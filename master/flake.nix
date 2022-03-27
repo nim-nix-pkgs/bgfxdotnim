@@ -11,6 +11,7 @@
   inputs.src-bgfxdotnim-master.ref   = "refs/heads/master";
   inputs.src-bgfxdotnim-master.owner = "zacharycarter";
   inputs.src-bgfxdotnim-master.repo  = "bgfx.nim";
+  inputs.src-bgfxdotnim-master.dir   = "";
   inputs.src-bgfxdotnim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
